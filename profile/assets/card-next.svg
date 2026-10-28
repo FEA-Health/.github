@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+  <defs>
+    <clipPath id="frame"><rect width="600" height="300" rx="24"/></clipPath>
+    <style>
+      .name { font: 800 44px -apple-system, BlinkMacSystemFont, &quot;SF Pro Display&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; fill: #ffffff; letter-spacing: -1px; }
+      .meta { font: 500 20px -apple-system, BlinkMacSystemFont, &quot;SF Pro Display&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; fill: #cfe6f5; }
+      .pill { font: 700 14px -apple-system, BlinkMacSystemFont, &quot;SF Pro Display&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; fill: #cfe6f5; letter-spacing: 1.5px; }
+      .dot { animation: blink 1.5s ease-in-out infinite; }
+      .d2 { animation-delay: .25s; } .d3 { animation-delay: .5s; }
+      @keyframes blink { 0%,100% { opacity: .25; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="600" height="300" fill="#041128"/>
+    <rect x="44" y="52" width="120" height="120" rx="28" fill="none" stroke="#19b8d6" stroke-width="3" stroke-dasharray="10 8"/>
+    <circle class="dot" cx="80" cy="112" r="9" fill="#1e6fd9"/>
+    <circle class="dot d2" cx="104" cy="112" r="9" fill="#19b8d6"/>
+    <circle class="dot d3" cx="128" cy="112" r="9" fill="#6fdcb4"/>
+    <text x="196" y="104" class="name">Next app</text>
+    <text x="198" y="140" class="meta">More health apps on the way</text>
+    <rect x="44" y="204" width="118" height="34" rx="17" fill="none" stroke="#cfe6f5" stroke-opacity="0.5" stroke-width="2"/>
+    <text x="103" y="226" class="pill" text-anchor="middle">PLANNED</text>
+  </g>
+</svg>
