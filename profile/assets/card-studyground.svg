@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+  <defs>
+    <clipPath id="frame"><rect width="600" height="300" rx="24"/></clipPath>
+    <clipPath id="icon"><rect x="44" y="52" width="120" height="120" rx="28"/></clipPath>
+    <style>
+      .name { font: 800 44px -apple-system, BlinkMacSystemFont, &quot;SF Pro Display&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; fill: #EEF0FF; letter-spacing: -1px; }
+      .meta { font: 500 20px -apple-system, BlinkMacSystemFont, &quot;SF Pro Display&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; fill: #8A90B8; }
+      .pill { font: 700 14px -apple-system, BlinkMacSystemFont, &quot;SF Pro Display&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; fill: #07080D; letter-spacing: 1.5px; }
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="600" height="300" fill="#07080D"/>
+    <g stroke-width="3" fill="none" opacity="0.5">
+      <path d="M380 300 C420 220 470 200 600 170" stroke="#00E5FF"/>
+      <path d="M300 300 C380 250 460 260 600 230" stroke="#9D5CFF"/>
+    </g>
+    <g clip-path="url(#icon)">
+      <rect x="44" y="52" width="120" height="120" fill="#0F1122"/>
+      <g transform="translate(44 52) scale(1.25)">
+        <path d="M66 24 H38 a12 12 0 0 0 0 24 h20 a12 12 0 0 1 0 24 H30" fill="none" stroke="#FF2E88" stroke-width="9" stroke-linecap="round"/>
+        <circle cx="66" cy="24" r="6" fill="#EEF0FF"/><circle cx="48" cy="48" r="5" fill="#EEF0FF"/><circle cx="30" cy="72" r="6" fill="#EEF0FF"/>
+      </g>
+    </g>
+    <text x="196" y="104" class="name">Studyground</text>
+    <text x="198" y="140" class="meta">Study timer · metro &amp; train</text>
+    <rect x="44" y="204" width="168" height="34" rx="17" fill="#00E5FF"/>
+    <text x="128" y="226" class="pill" text-anchor="middle">IN DEVELOPMENT</text>
+  </g>
+</svg>

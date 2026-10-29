@@ -26,8 +26,16 @@
       </a>
     </td>
     <td width="50%">
+      <a href="https://github.com/FEA-Health/Studyground-">
+        <img src="https://raw.githubusercontent.com/FEA-Health/.github/main/profile/assets/card-studyground.svg" alt="Studyground, in development" width="100%">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
       <img src="https://raw.githubusercontent.com/FEA-Health/.github/main/profile/assets/card-next.svg" alt="Next app, planned" width="100%">
     </td>
+    <td width="50%"></td>
   </tr>
 </table>
 
