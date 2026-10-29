@@ -5,14 +5,26 @@
     <style>
       .name { font: 800 44px -apple-system, BlinkMacSystemFont, &quot;SF Pro Display&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; fill: #EEF0FF; letter-spacing: -1px; }
       .meta { font: 500 20px -apple-system, BlinkMacSystemFont, &quot;SF Pro Display&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; fill: #8A90B8; }
+      .train { animation: roll 6s linear infinite; }
+      @keyframes roll { from { transform: translateX(-180px); } to { transform: translateX(620px); } }
       .pill { font: 700 14px -apple-system, BlinkMacSystemFont, &quot;SF Pro Display&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; fill: #07080D; letter-spacing: 1.5px; }
     </style>
   </defs>
   <g clip-path="url(#frame)">
     <rect width="600" height="300" fill="#07080D"/>
-    <g stroke-width="3" fill="none" opacity="0.5">
-      <path d="M380 300 C420 220 470 200 600 170" stroke="#00E5FF"/>
-      <path d="M300 300 C380 250 460 260 600 230" stroke="#9D5CFF"/>
+    <!-- track -->
+    <line x1="0" y1="272" x2="600" y2="272" stroke="#181B36" stroke-width="4"/>
+    <g stroke="#181B36" stroke-width="2">
+      <line x1="20" y1="266" x2="20" y2="278"/><line x1="80" y1="266" x2="80" y2="278"/><line x1="140" y1="266" x2="140" y2="278"/><line x1="200" y1="266" x2="200" y2="278"/><line x1="260" y1="266" x2="260" y2="278"/><line x1="320" y1="266" x2="320" y2="278"/><line x1="380" y1="266" x2="380" y2="278"/><line x1="440" y1="266" x2="440" y2="278"/><line x1="500" y1="266" x2="500" y2="278"/><line x1="560" y1="266" x2="560" y2="278"/>
+    </g>
+    <!-- train: starts off-card on the left, rolls across, loops -->
+    <g class="train">
+      <rect x="0" y="252" width="52" height="16" rx="5" fill="#9D5CFF"/>
+      <rect x="56" y="252" width="52" height="16" rx="5" fill="#00E5FF"/>
+      <path d="M112 252 h40 a14 16 0 0 1 14 16 h-54 z" fill="#FF2E88"/>
+      <g fill="#07080D"><rect x="8" y="256" width="10" height="6" rx="2"/><rect x="24" y="256" width="10" height="6" rx="2"/><rect x="64" y="256" width="10" height="6" rx="2"/><rect x="80" y="256" width="10" height="6" rx="2"/><rect x="120" y="256" width="10" height="6" rx="2"/><rect x="136" y="256" width="14" height="6" rx="2"/></g>
+      <g fill="#EEF0FF"><circle cx="12" cy="270" r="3"/><circle cx="40" cy="270" r="3"/><circle cx="68" cy="270" r="3"/><circle cx="96" cy="270" r="3"/><circle cx="124" cy="270" r="3"/><circle cx="152" cy="270" r="3"/></g>
+      <circle cx="164" cy="262" r="2.5" fill="#FFE14D"/>
     </g>
     <g clip-path="url(#icon)">
       <rect x="44" y="52" width="120" height="120" fill="#0F1122"/>
