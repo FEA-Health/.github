@@ -44,15 +44,15 @@
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>🎯 One app, one job</h3>
+      <h3> One app, one job</h3>
       Every app focuses on a single habit, so it stays simple enough to use every day.
     </td>
     <td width="33%" valign="top">
-      <h3>📱 Truly native</h3>
+      <h3> Truly native</h3>
       Built for iPhone with Swift and SwiftUI, so it feels at home on iOS.
     </td>
     <td width="33%" valign="top">
-      <h3>🔒 Private by design</h3>
+      <h3> Private by design</h3>
       Your health data belongs to you, not to us.
     </td>
   </tr>
